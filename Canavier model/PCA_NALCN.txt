@@ -1,0 +1,47 @@
+
+Original data shape: (200, 10)
+Number of samples: 200
+Number of features: 10
+
+=== PCA Results ===
+Explained variance ratio for each PC:
+PC1: 18.61%
+PC2: 17.08%
+PC3: 11.69%
+PC4: 10.89%
+PC5: 9.99%
+PC6: 9.75%
+PC7: 7.85%
+PC8: 7.38%
+PC9: 5.11%
+PC10: 1.64%
+
+Cumulative explained variance:
+PC1-PC1: 18.61%
+PC1-PC2: 35.7%
+PC1-PC3: 47.38%
+PC1-PC4: 58.27%
+PC1-PC5: 68.26%
+PC1-PC6: 78.02%
+PC1-PC7: 85.87%
+PC1-PC8: 93.25%
+PC1-PC9: 98.36%
+PC1-PC10: 100.0%
+
+=== PC Loadings (first 3 components) ===
+Feature		PC1		PC2		PC3
+--------------------------------------------------
+gNa		0.534		-0.14		-0.114
+gCaL		0.018		0.62		0.032
+gKd		0.595		0.34		-0.018
+gKA		-0.008		-0.243		0.246
+gKERG		-0.152		-0.017		-0.607
+gKSK		0.275		-0.496		0.001
+gH		-0.23		0.129		-0.34
+gLNS		-0.267		0.002		0.624
+gLCa		-0.292		0.193		-0.066
+gNALCN		-0.228		-0.348		-0.217
+
+Transformed data shape: (200, 10)
+
+PCA analysis complete! Results stored in 'pca_results' named tuple.

@@ -1,0 +1,44 @@
+Original data shape: (200, 10)
+Number of samples: 200
+Number of features: 10
+
+=== PCA Results ===
+Explained variance ratio for each PC:
+PC1: 16.77%
+PC2: 12.96%
+PC3: 12.79%
+PC4: 10.93%
+PC5: 10.75%
+PC6: 8.7%
+PC7: 8.66%
+PC8: 6.96%
+PC9: 5.87%
+PC10: 5.63%
+
+Cumulative explained variance:
+PC1-PC1: 16.77%
+PC1-PC2: 29.73%
+PC1-PC3: 42.52%
+PC1-PC4: 53.44%
+PC1-PC5: 64.19%
+PC1-PC6: 72.88%
+PC1-PC7: 81.54%
+PC1-PC8: 88.5%
+PC1-PC9: 94.37%
+PC1-PC10: 100.0%
+
+=== PC Loadings (first 3 components) ===
+Feature		PC1		PC2		PC3
+--------------------------------------------------
+gNa		-0.348		-0.369		0.025
+gCaL		-0.098		0.428		-0.582
+gKd		-0.23		-0.091		-0.56
+gKA		0.309		-0.178		-0.114
+gKERG		-0.285		-0.454		-0.072
+gKSK		0.361		-0.562		-0.061
+gH		0.268		-0.008		-0.439
+gLNS		-0.127		0.154		0.077
+gLCa		-0.448		0.172		0.271
+gPace		-0.469		-0.256		-0.23
+
+Transformed data shape: (200, 10)
