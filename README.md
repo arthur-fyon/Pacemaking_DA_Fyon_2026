@@ -33,7 +33,7 @@ The code implements several variants of the DA neuron model:
 1. **`DA_ODE`**: Original model with shifted activation kinetics
 2. **`DA_ODE_nohs`**: Model without slow Na⁺ inactivation
 3. **`DA_ODE_true_NaLCN`**: Corrected kinetics with NaLCN pacemaker
-4. **`DA_ODE_true`**: Corrected kinetics with fitted pacemaker (instantaneous)
+4. **`DA_ODE_true_instant`**: Corrected kinetics with fitted pacemaker (instantaneous)
 5. **`DA_ODE_true_notinstant`**: Non-instantaneous pacemaker activation
 6. **`DA_ODE_true_notinstant_transient`**: Time-varying pacemaker conductance
 
